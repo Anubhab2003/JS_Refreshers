@@ -1,0 +1,1 @@
+Array is a data structure which holds set to other datatype
