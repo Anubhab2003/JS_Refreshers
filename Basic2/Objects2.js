@@ -37,7 +37,23 @@ const Ustaad=[
     }
 ]
 const gettingEmail=Ustaad[0].email;
-console.log(gettingEmail);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(tinderUser.hasOwnProperty("name"));
+// console.log(gettingEmail);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(tinderUser.hasOwnProperty("name"));
+
+//DESTRUCTURING OF OBJECT
+const Course={
+    name:"JavaScript Mastery",
+    price:"₹10000",
+    courseInstructor:"Anubhab Chowdhury"
+}
+const {courseInstructor: instructor}=Course
+console.log(instructor);
+
+// const navbar=({company})=>{
+
+// }
+// navbar(company="Ustaad")
+
+
