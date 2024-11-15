@@ -30,3 +30,4 @@ console.log(addTwo(2,3));
 // Another way to write arrow function, here no curly braces and return keyword
 const addthree=(n1,n2,n3)=>n1+n2+n3;
 console.log(addthree(2,3,4));
+console.log(typeof null);
