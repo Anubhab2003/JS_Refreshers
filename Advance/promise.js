@@ -92,7 +92,7 @@
 
 // getallUsers();
 
-fetch("https://jsonplaceholder.typicode.com/users")
+fetch("https://api.github.com/users/Anubhab2003")
 .then((response)=>{
     return response.json();
 })
